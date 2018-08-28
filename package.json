@@ -1,0 +1,37 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog based on React + mobx + Next.js + Typescript + koa2 + mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suanmei/blog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suanmei/blog/issues"
+  },
+  "homepage": "https://github.com/suanmei/blog#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.31",
+    "@types/next": "^6.1.4",
+    "@types/react": "^16.4.12",
+    "@zeit/next-typescript": "^1.1.0",
+    "nodemon": "^1.18.3",
+    "typescript": "^3.0.1"
+  }
+}
