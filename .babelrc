@@ -1,4 +1,6 @@
 {
-  "presets": ["next/babel"],
-  "plugins": ["transform-decorators-legacy"]
+  "presets": [
+    "next/babel",
+    "@zeit/next-typescript/babel"
+  ]
 }
