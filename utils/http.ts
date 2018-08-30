@@ -39,7 +39,7 @@ export default {
       .then(response => checkStatus(response))
       .then(res => checkCode(res));
   },
-  get(url, params, opt) {
+  get(url, params?, opt?) {
     const options = typeof opt === 'undefined' ? params : opt;
 
     return axios(Object.assign({
