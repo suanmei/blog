@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 const express = require('express');
 const next = require('next');
+const fs = require('fs');
 
 const devProxy = {
   '/api': {
@@ -33,6 +34,12 @@ app
         server.use(proxyMiddleware(context, devProxy[context]))
       })
     }
+
+    server.get('/markdown', (req, res) => {
+      const md = fs.readFileSync('./h5_call_app.md', 'utf8');
+      res.header("Content-Type", "text/html; charset=utf-8")
+      res.send({ md });
+    });
 
     // Default catch-all handler to allow Next.js to handle all other routes
     server.all('*', (req, res) => handle(req, res))
