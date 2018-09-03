@@ -22,7 +22,7 @@
 
 我们来看一下 URL 的组成：
 
-```
+``` js
 [scheme:][//authority][path][?query][#fragment]
 ```
 
