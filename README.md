@@ -4,9 +4,10 @@ Blog based on React + mobx + Next.js + Typescript + koa2 + mongodb
 ### Todos
 
 - <s>markdown 内容显示</s>
-- markdown 代码高亮
-- 支持 css 样式引入
-- Disqus 评论
+- <s>markdown 代码高亮</s>
+- <s>支持 css 样式引入</s>
+- 代码块显示行数
+- css modules
 - 网站管理后台
 - 网站首页
 - 归档
